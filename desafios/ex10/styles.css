@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'android';
+    src: url('and.otf')
+    format('truetype');
+}
+*
+{
+    font-family: arial;
+    margin: 0px;
+}
+body
+{
+    background-color: #3EC272;
+}
+nav
+{
+    color: white;
+    background-image:linear-gradient(to bottom, #99F7BE,#1e6e3e);
+    
+}
+h1#title_principal
+{
+text-align: center;
+
+}
+p#sub_principal
+{
+    text-align: center;
+}
+p
+{
+    text-align: justify;
+    text-indent: 9px;
+    margin: 2px;
+}
+li.nav_list
+{
+    display: inline-block;
+    
+}
+ul#nav_ul_list
+{
+    
+    margin: 0px;
+    padding: 0px;
+   
+   
+    
+}
+li>a
+{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px 0px 0px;
+    font:normal 15pt arial
+
+}
+a:hover
+{
+    color: turquoise;
+}
+main
+{
+    min-width: 300px;
+    background-color: white;
+    max-width: 1140px;
+    margin: auto;
+    border-radius: 0px 0px 9px 9px;
+    padding: 9px;
+    box-shadow: 5px 5px 14px black;
+}
+
+div#menu
+{
+    margin: 0px;
+}
+div#titles
+{
+   
+    padding: 40px;
+}
+
+h1#sub_principal_title
+{
+    font: normal 20pt arial;
+    font-family: android;
+    margin: 0px 2px 0px 2px;
+   
+    color: #267545;
+}
+
+footer
+{
+    margin-top: 30px;
+    background-color:#49755B ;
+}
+h2.h2_title
+{
+    font-family: android;
+    background-color: #99F7BE;
+    color: #267545;
+    margin: 2px;
+}
+
+
+article > picture,img
+{
+    
+    display: block;
+    margin:  auto;
+  width: 90%;
+
+}
+
+div#left_list
+{
+    
+    display: inline-block;
+    margin-left: 10%;
+    padding: 9px;
+}
+div#right_list
+{
+    
+    display: inline-block;
+    margin-left: 10%;
+    padding: 9px;
+   
+    
+}
+
+article#list >h1
+{
+    background-color:#449966 ;
+    color: white;
+    border-radius: 9px 9px 0px 0px;
+}
+article#list
+{
+    background-color: #99F7BE;
+    border-radius: 9px ;
+    box-shadow: 5px 5px 15px rgb(85, 84, 84);
+    
+}
+li.underline
+{
+   text-decoration: underline; 
+   list-style-type: none;
+}
+footer
+{
+    text-align: center;
+    color: white;
+}
+#video
+{
+    width: 560px;
+    margin: auto;
+    display: block;
+    padding: 5px;
+}
+@media screen and (max-width: 768px)
+{
+    #video
+    {
+       width: 100%;
+    }
+}
